@@ -1,0 +1,19 @@
+{
+  "name": "hapi-testing",
+  "version": "1.0.0",
+  "description": "Pengujian CRUD pada Hapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.10",
+    "hapi": "^18.1.0",
+    "mysql2": "^3.10.1",
+    "nodemon": "^3.1.4"
+  }
+}
