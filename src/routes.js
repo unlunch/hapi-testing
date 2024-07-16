@@ -8,22 +8,22 @@ const{
 const routes = [
     {
         method: 'POST',
-        path: '/users',
+        path: '/hapi/users',
         handler: addUserHandler,
     },
     {
         method: 'GET',
-        path: '/users',
+        path: '/hapi/users',
         handler: getAllusersHandler,
     },
     {
-        method: 'PATCH',
-        path: '/users/{id}',
+        method: 'PUT',
+        path: '/hapi/users/{id}',
         handler: updateUserHandler,
     },
     {
         method: 'DELETE',
-        path: '/users/{id}',
+        path: '/hapi/users/{id}',
         handler: deleteUserHandler,
     }
 ]
